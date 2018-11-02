@@ -7,10 +7,10 @@
  * Video Again
 */
 
-/* composite view has Label located at the bottom center of the view, text needs identified */
-it("composite view has Label located at the bottom center of the view, text needs identified", () => {
+/* chat view has a Label located at the bottom center of the view with text s */
+it("chat view has a Label located at the bottom center of the view with text s", () => {
   /* ToDo developer needs to complete unit test 
-               composite view has Label located at the bottom center of the view, text needs identified
+               chat view has a Label located at the bottom center of the view with text s
                uncomment below and update the code to test
                 //instance.action(function(error) {
                 //  if (error) throw error;

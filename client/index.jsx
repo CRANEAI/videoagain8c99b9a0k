@@ -23,6 +23,7 @@ import follow from './components/follow.jsx'
 import edit_profile from './components/edit profile.jsx'
 import composite from './components/composite.jsx'
 import get_started from './components/get started.jsx'
+import chat from './components/chat.jsx'
 import notifications from './components/notifications.jsx'
        
         //----------------------------------------------------------------------------------------------------------
@@ -53,6 +54,7 @@ import notifications from './components/notifications.jsx'
 ,<Route path="/edit_profile" component={edit_profile} /> 
 ,<Route path="/composite" component={composite} /> 
 ,<Route path="/get_started" component={get_started} /> 
+,<Route path="/chat" component={chat} /> 
 ,<Route path="/notifications" component={notifications} /> 
 
                     </Switch>

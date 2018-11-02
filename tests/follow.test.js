@@ -7,10 +7,10 @@
  * Video Again
 */
 
-/* follow view has a Label located at the main area left of the view with text a _ */
-it("follow view has a Label located at the main area left of the view with text a _", () => {
+/* the edit profile view has a home icon located at the bottom left of the view which on click will trigger the home() action */
+it("the edit profile view has a home icon located at the bottom left of the view which on click will trigger the home() action", () => {
   /* ToDo developer needs to complete unit test 
-               follow view has a Label located at the main area left of the view with text a _
+               the edit profile view has a home icon located at the bottom left of the view which on click will trigger the home() action
                uncomment below and update the code to test
                 //instance.action(function(error) {
                 //  if (error) throw error;

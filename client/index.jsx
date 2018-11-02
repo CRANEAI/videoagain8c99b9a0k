@@ -15,14 +15,14 @@
             //Parent Components
         //----------------------------------------------------------------------------------------------------------
         
-        import get_started from './components/get started.jsx'
-import feed from './components/feed.jsx'
+        import feed from './components/feed.jsx'
 import .iii_sketch_‘3‘ from './components/.iii sketch ‘3‘.jsx'
 import live from './components/live.jsx'
+import search from './components/search.jsx'
 import follow from './components/follow.jsx'
 import edit_profile from './components/edit profile.jsx'
 import composite from './components/composite.jsx'
-import search from './components/search.jsx'
+import get_started from './components/get started.jsx'
 import notifications from './components/notifications.jsx'
        
         //----------------------------------------------------------------------------------------------------------
@@ -44,15 +44,15 @@ import notifications from './components/notifications.jsx'
         
                 <Router basename="/" history={ history } >
                     <Switch>
-                        <Route path "/" component={get_started}
-                        <Route path="/get_started" component={get_started} /> 
-,<Route path="/feed" component={feed} /> 
+                        <Route path "/" component={feed}
+                        <Route path="/feed" component={feed} /> 
 ,<Route path="/.iii_sketch_‘3‘" component={.iii_sketch_‘3‘} /> 
 ,<Route path="/live" component={live} /> 
+,<Route path="/search" component={search} /> 
 ,<Route path="/follow" component={follow} /> 
 ,<Route path="/edit_profile" component={edit_profile} /> 
 ,<Route path="/composite" component={composite} /> 
-,<Route path="/search" component={search} /> 
+,<Route path="/get_started" component={get_started} /> 
 ,<Route path="/notifications" component={notifications} /> 
 
                     </Switch>

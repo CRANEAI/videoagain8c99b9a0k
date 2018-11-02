@@ -7,10 +7,10 @@
  * Video Again
 */
 
-/* follow view has a Label located at the main area left of the view with text a _ */
-it("follow view has a Label located at the main area left of the view with text a _", () => {
+/* chat view has a Label located at the bottom center of the view with text s */
+it("chat view has a Label located at the bottom center of the view with text s", () => {
   /* ToDo developer needs to complete unit test 
-               follow view has a Label located at the main area left of the view with text a _
+               chat view has a Label located at the bottom center of the view with text s
                uncomment below and update the code to test
                 //instance.action(function(error) {
                 //  if (error) throw error;

@@ -16,11 +16,11 @@
         //----------------------------------------------------------------------------------------------------------
         
         import .iii_sketch_‘3‘ from './components/.iii sketch ‘3‘.jsx'
-import follow from './components/follow.jsx'
-import composite from './components/composite.jsx'
 import live from './components/live.jsx'
-import .iii_sketch_‘3‘ from './components/.iii sketch ‘3‘.jsx'
-import notifications from './components/notifications.jsx'
+import follow from './components/follow.jsx'
+import follow from './components/follow.jsx'
+import edit_profile from './components/edit profile.jsx'
+import follow from './components/follow.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -43,11 +43,11 @@ import notifications from './components/notifications.jsx'
                     <Switch>
                         <Route path "/" component={.iii_sketch_‘3‘}
                         <Route path="/.iii_sketch_‘3‘" component={.iii_sketch_‘3‘} /> 
-,<Route path="/follow" component={follow} /> 
-,<Route path="/composite" component={composite} /> 
 ,<Route path="/live" component={live} /> 
-,<Route path="/.iii_sketch_‘3‘" component={.iii_sketch_‘3‘} /> 
-,<Route path="/notifications" component={notifications} /> 
+,<Route path="/follow" component={follow} /> 
+,<Route path="/follow" component={follow} /> 
+,<Route path="/edit_profile" component={edit_profile} /> 
+,<Route path="/follow" component={follow} /> 
 
                     </Switch>
                 </Router>

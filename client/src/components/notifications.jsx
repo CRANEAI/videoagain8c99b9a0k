@@ -7,32 +7,32 @@ created by: FusionCode
 // Component Requirements
 //----------------------------------------------------------------------------------------------------------
 
-the follow view is a data-bound list based view with a repeating template containing User Account Photo, Table Row elements
-the follow view has a status bar located at the very-top across the full width of the view
-follow view has Navigation Bar located at the very-top in the center of the view with text .iii sketch ‘3‘
-follow view has a Button located at the very-top in the center of the view with text follow your favorite broadcaster and get live
-follow view has a Label located at the top center of the view with text johnny rios f h
-follow view has Table View that scrolls horizontal
-follow view has a Label located at the top center of the view with text id: 34983294 ° °w
-follow view has a Label located at the top center of the view with text alfred hod es
-follow view has a Label located at the top center of the view with text 9 d: 42983213
-follow view has a Label located at the mid-top center of the view with text samuel hammond
-follow view has Table View that scrolls horizontal
-follow view has a Button located at the mid-top center of the view with text - follow
-follow view has a Label located at the mid-top center of the view with text dora hines
-follow view has Table View that scrolls vertical
-follow view has a Label located at the main area center of the view with text carolyn francis
-follow view has a Button located at the main area center of the view with text follow
-follow view has a Label located at the main area center of the view with text id: 73748319
-follow view has an Image located at the mid-bottom left of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has a Label located at the mid-bottom center of the view with text isaiah mcgee
-follow view has a Label located at the mid-bottom center of the view with text $.45» id: 34983943
-follow view has a Label located at the mid-bottom center of the view with text mark holmes
-follow view has a Label located at the mid-bottom center of the view with text id: 13498384
-follow view has a Label located at the bottom center of the view with text russell mcguire
-follow view has a Label located at the bottom center of the view with text id: 63283294
-follow view has a Label located at the bottom center of the view with text 5' jonathan peters
-follow view has a Button located at the bottom center of the view with text follow
+the notifications view is a data-bound list based view with a repeating template containing User Account Photo, Table Row elements
+the notifications view has a status bar located at the very-top across the full width of the view
+notifications view has Navigation Bar located at the very-top in the center of the view with text .iii sketch ‘3‘
+notifications view has a Datatype located at the very-top in the center of the view with text notifications when they are live
+notifications view has Label located at the top center of the view, text needs identified
+notifications view has Table View that scrolls horizontal
+notifications view has Label located at the top center of the view, text needs identified
+notifications view has Label located at the top center of the view, text needs identified
+notifications view has Label located at the top center of the view, text needs identified
+notifications view has Label located at the mid-top center of the view, text needs identified
+notifications view has Table View that scrolls horizontal
+notifications view has a Label located at the mid-top center of the view with text id: 34983532
+notifications view has a Label located at the mid-top center of the view with text & ld: 64983274
+notifications view has Table View that scrolls vertical
+notifications view has Label located at the main area center of the view, text needs identified
+notifications view has a Button located at the main area center of the view with text follow
+notifications view has Label located at the main area center of the view, text needs identified
+notifications view has an Image located at the mid-bottom left of the view. this is a placeholder and should be updated with higher resolution Image
+notifications view has Label located at the mid-bottom center of the view, text needs identified
+notifications view has Label located at the mid-bottom center of the view, text needs identified
+notifications view has Label located at the mid-bottom center of the view, text needs identified
+notifications view has Label located at the mid-bottom center of the view, text needs identified
+notifications view has Label located at the bottom center of the view, text needs identified
+notifications view has Label located at the bottom center of the view, text needs identified
+notifications view has a Label located at the bottom center of the view with text ‘_ id: 63283294
+notifications view has a Button located at the bottom center of the view with text follow
 view has actions which trigger on events, view should should error messages and display activity indicator when processing
 
 */

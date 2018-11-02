@@ -45,7 +45,7 @@ import { Row, Col , Button, Input, InputGroup, InputGroupText } from 'reactstrap
         
         import {  }  from '../actions/.iii_sketch_‘3‘Actions.js'; 
 
-        import { get_follow_data, get_.iii_sketch_‘3‘_data }  from '../actions/.iii sketch ‘3‘Actions.js'; 
+        import { get_sign_up_data, get_.iii_sketch_‘3‘_data }  from '../actions/.iii sketch ‘3‘Actions.js'; 
         
        
         class .iiisketch‘3‘View extends React.Component {
@@ -65,11 +65,11 @@ password : '',
             })
         }    
             
-        get_follow_data = () => {
+        get_sign up_data = () => {
 
             return (
                 <Col>
-                <!-- ToDo: Refine template loop for get_follow_data -->
+                <!-- ToDo: Refine template loop for get_sign up_data -->
                 </Col>
             )
         }
@@ -85,7 +85,7 @@ password : '',
         
 
             componentDidMount = () => {
-                const { get_follow_data, get_.iii_sketch_‘3‘_data } = this.props
+                const { get_sign_up_data, get_.iii_sketch_‘3‘_data } = this.props
                
                 ,
             }
@@ -146,7 +146,7 @@ password : '',
 			</Col>
 
 
-                        {render_get_follow_data()}
+                        {render_get_sign up_data()}
 {render_get_.iii_sketch_‘3‘_data()}
    
    
@@ -163,7 +163,7 @@ password : '',
         }
     
         function mapDispatchToProps(dispatch) {
-            return bindActionCreators({  get_follow_data, get_.iii_sketch_‘3‘_data }, dispatch);
+            return bindActionCreators({  get_sign_up_data, get_.iii_sketch_‘3‘_data }, dispatch);
         }
     
    

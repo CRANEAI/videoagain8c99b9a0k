@@ -7,14 +7,11 @@ created by: FusionCode
 // Component Requirements
 //----------------------------------------------------------------------------------------------------------
 
-the follow view has a status bar located at the very-top across the full width of the view
-follow view has Navigation Bar located at the very-top in the center of the view with text follow
-follow view has an Image located at the very-top center of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has an Image located at the very-top left of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has a Label located at the top center of the view with text {a
-follow view has an Image located at the top center of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has an Image located at the top left of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has a Label located at the main area left of the view with text a _
+the chat view has a status bar located at the very-top across the full width of the view
+chat view has an Image located at the very-top in the center of the view. this is a placeholder and should be updated with higher resolution Image
+chat view has a GeneralLabel located at the top left of the view with text ick a topic to chat
+the chat will appear on focus with state is set
+chat view has a Label located at the bottom center of the view with text s
 
 */
         

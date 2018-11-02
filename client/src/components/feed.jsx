@@ -43,7 +43,7 @@ import { Row, Col , Navbar, NavItem, NavbarBrand, Button } from 'reactstrap';
         
         import { follow_action, follow_action, follow_action }  from '../actions/feedActions.js'; 
 
-        import { get_follow_data, get_feed_data, get_notifications_data, get_exploration_data }  from '../actions/feedActions.js'; 
+        import { get_follow_data, get_feed_data, get_notifications_data, get_exploration_data, get_.iii_sketch_‘3‘_data, get_live_data }  from '../actions/feedActions.js'; 
         
        
         class feedView extends React.Component {
@@ -142,11 +142,29 @@ import { Row, Col , Navbar, NavItem, NavbarBrand, Button } from 'reactstrap';
             )
         }
         
+        get_.iii sketch ‘3‘_data = () => {
+
+            return (
+                <Col>
+                <!-- ToDo: Refine template loop for get_.iii sketch ‘3‘_data -->
+                </Col>
+            )
+        }
+        
+        get_live_data = () => {
+
+            return (
+                <Col>
+                <!-- ToDo: Refine template loop for get_live_data -->
+                </Col>
+            )
+        }
+        
 
             componentDidMount = () => {
-                const { get_follow_data, get_feed_data, get_notifications_data, get_exploration_data } = this.props
+                const { get_follow_data, get_feed_data, get_notifications_data, get_exploration_data, get_.iii_sketch_‘3‘_data, get_live_data } = this.props
                
-                ,,,
+                ,,,,,
             }
     
         render() {
@@ -248,6 +266,8 @@ import { Row, Col , Navbar, NavItem, NavbarBrand, Button } from 'reactstrap';
 {render_get_feed_data()}
 {render_get_notifications_data()}
 {render_get_exploration_data()}
+{render_get_.iii sketch ‘3‘_data()}
+{render_get_live_data()}
    
    
                     </Col> 
@@ -266,7 +286,7 @@ import { Row, Col , Navbar, NavItem, NavbarBrand, Button } from 'reactstrap';
         }
     
         function mapDispatchToProps(dispatch) {
-            return bindActionCreators({ follow_action, follow_action, follow_action get_follow_data, get_feed_data, get_notifications_data, get_exploration_data }, dispatch);
+            return bindActionCreators({ follow_action, follow_action, follow_action get_follow_data, get_feed_data, get_notifications_data, get_exploration_data, get_.iii_sketch_‘3‘_data, get_live_data }, dispatch);
         }
     
    

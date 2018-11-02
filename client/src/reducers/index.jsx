@@ -10,6 +10,7 @@ import follow from './reducer_follow'
 import edit_profile from './reducer_edit_profile' 
 import composite from './reducer_composite' 
 import get_started from './reducer_get_started' 
+import chat from './reducer_chat' 
 import notifications from './reducer_notifications'
 
         const rootReducer = combineReducers({
@@ -21,6 +22,7 @@ import notifications from './reducer_notifications'
 ,edit_profile : edit_profile 
 ,composite : composite 
 ,get_started : get_started 
+,chat : chat 
 ,notifications : notifications 
 
         })

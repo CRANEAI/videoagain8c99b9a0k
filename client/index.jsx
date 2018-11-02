@@ -20,7 +20,7 @@ import live from './components/live.jsx'
 import follow from './components/follow.jsx'
 import follow from './components/follow.jsx'
 import edit_profile from './components/edit profile.jsx'
-import follow from './components/follow.jsx'
+import notifications from './components/notifications.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -47,7 +47,7 @@ import follow from './components/follow.jsx'
 ,<Route path="/follow" component={follow} /> 
 ,<Route path="/follow" component={follow} /> 
 ,<Route path="/edit_profile" component={edit_profile} /> 
-,<Route path="/follow" component={follow} /> 
+,<Route path="/notifications" component={notifications} /> 
 
                     </Switch>
                 </Router>

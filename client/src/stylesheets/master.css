@@ -21,6 +21,31 @@
     }
     
     
+                    status bar-block-block {
+                        background: rgb(163, 162, 163),
+                        color: rgb(15, 14, 15)
+                    }
+                    
+                    image-light turquoise-light sky blue {
+                        background: rgb(111, 233, 209),
+                        color: rgb(219, 248, 244)
+                    }
+                    
+                    label-block-brown {
+                        background: rgb(47, 46, 42),
+                        color: rgb(167, 133, 56)
+                    }
+                    
+                    label-white-black {
+                        background: rgb(251, 251, 251),
+                        color: rgb(26, 26, 26)
+                    }
+                    
+                    button-white-black {
+                        background: rgb(251, 251, 251),
+                        color: rgb(26, 26, 26)
+                    }
+                    
                     status bar-block-black {
                         background: rgb(160, 160, 162),
                         color: rgb(15, 15, 15)
@@ -34,6 +59,16 @@
                     label-block-very light yellow {
                         background: rgb(34, 38, 38),
                         color: rgb(226, 217, 190)
+                    }
+                    
+                    status bar-block-light pink {
+                        background: rgb(41, 45, 41),
+                        color: rgb(207, 129, 145)
+                    }
+                    
+                    label-peach-brown {
+                        background: rgb(204, 128, 98),
+                        color: rgb(101, 55, 34)
                     }
                     
     

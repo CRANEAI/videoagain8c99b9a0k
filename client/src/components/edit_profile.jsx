@@ -6,19 +6,17 @@ created by: FusionCode
 // Component Requirements
 //----------------------------------------------------------------------------------------------------------
 
-the follow view has a status bar located at the very-top across the full width of the view
-follow view has Navigation Bar located at the very-top in the center of the view
-follow view has an Image located at the very-top center of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has an Image located at the very-top left of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has a Label located at the top center of the view with text {a
-follow view has an Image located at the top center of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has an Image located at the top left of the view. this is a placeholder and should be updated with higher resolution Image
-follow view has a Label located at the main area left of the view with text a _
-view has actions which trigger on events, view should should error messages and display activity indicator when processing
-the composite view has a profile icon located at the bottom right of the view which on click will trigger the profile() action
-the composite view has a home icon located at the bottom left of the view which on click will trigger the home() action
-the edit profile view has a profile icon located at the bottom right of the view which on click will trigger the profile() action
-the edit profile view has a home icon located at the bottom left of the view which on click will trigger the home() action
+the composite view has a status bar located at the very-top across the full width of the view
+composite view has a Label located at the top center of the view with text steve barnett
+composite view has Label located at the top center of the view, text needs identified
+composite view has Label located at the mid-top center of the view, text needs identified
+composite view has Label located at the mid-top center of the view, text needs identified
+composite view has Label located at the mid-top left of the view, text needs identified
+composite view has a Label located at the mid-top left of the view with text 218 3k1 1k2
+composite view has Label located at the mid-top center of the view, text needs identified
+composite view has Label located at the mid-top center of the view, text needs identified
+composite view has an Image located at the main area across the full width of the view. this is a placeholder and should be updated with higher resolution Image
+composite view has Label located at the bottom center of the view, text needs identified
 
 */
 

@@ -7,32 +7,32 @@ created by: FusionCode
 // Component Requirements
 //----------------------------------------------------------------------------------------------------------
 
-the notifications view is a data-bound list based view with a repeating template containing User Account Photo, Table Row elements
-the notifications view has a status bar located at the very-top across the full width of the view
-notifications view has Navigation Bar located at the very-top in the center of the view with text .iii sketch ‘3‘
-notifications view has a Datatype located at the very-top in the center of the view with text notifications when they are live
-notifications view has Label located at the top center of the view, text needs identified
-notifications view has Table View that scrolls horizontal
-notifications view has Label located at the top center of the view, text needs identified
-notifications view has Label located at the top center of the view, text needs identified
-notifications view has Label located at the top center of the view, text needs identified
-notifications view has Label located at the mid-top center of the view, text needs identified
-notifications view has Table View that scrolls horizontal
-notifications view has a Label located at the mid-top center of the view with text id: 34983532
-notifications view has a Label located at the mid-top center of the view with text & ld: 64983274
-notifications view has Table View that scrolls vertical
-notifications view has Label located at the main area center of the view, text needs identified
-notifications view has a Button located at the main area center of the view with text follow
-notifications view has Label located at the main area center of the view, text needs identified
-notifications view has an Image located at the mid-bottom left of the view. this is a placeholder and should be updated with higher resolution Image
-notifications view has Label located at the mid-bottom center of the view, text needs identified
-notifications view has Label located at the mid-bottom center of the view, text needs identified
-notifications view has Label located at the mid-bottom center of the view, text needs identified
-notifications view has Label located at the mid-bottom center of the view, text needs identified
-notifications view has Label located at the bottom center of the view, text needs identified
-notifications view has Label located at the bottom center of the view, text needs identified
-notifications view has a Label located at the bottom center of the view with text ‘_ id: 63283294
-notifications view has a Button located at the bottom center of the view with text follow
+the follow view is a data-bound list based view with a repeating template containing User Account Photo, Table Row elements
+the follow view has a status bar located at the very-top across the full width of the view
+follow view has Navigation Bar located at the very-top in the center of the view with text .iii sketch ‘3‘
+follow view has Label located at the very-top in the center of the view, text needs identified
+follow view has Label located at the top center of the view, text needs identified
+follow view has Table View that scrolls horizontal
+follow view has Label located at the top center of the view, text needs identified
+follow view has Label located at the top center of the view, text needs identified
+follow view has Label located at the top center of the view, text needs identified
+follow view has Label located at the mid-top center of the view, text needs identified
+follow view has Table View that scrolls horizontal
+follow view has Label located at the mid-top center of the view, text needs identified
+follow view has Label located at the mid-top center of the view, text needs identified
+follow view has Table View that scrolls vertical
+follow view has Label located at the main area center of the view, text needs identified
+follow view has a Button located at the main area center of the view with text follow
+follow view has Label located at the main area center of the view, text needs identified
+follow view has an Image located at the mid-bottom left of the view. this is a placeholder and should be updated with higher resolution Image
+follow view has Label located at the mid-bottom center of the view, text needs identified
+follow view has Label located at the mid-bottom center of the view, text needs identified
+follow view has Label located at the mid-bottom center of the view, text needs identified
+follow view has Label located at the mid-bottom center of the view, text needs identified
+follow view has Label located at the bottom center of the view, text needs identified
+follow view has Label located at the bottom center of the view, text needs identified
+follow view has Label located at the bottom center of the view, text needs identified
+follow view has a Button located at the bottom center of the view with text follow
 view has actions which trigger on events, view should should error messages and display activity indicator when processing
 
 */
@@ -45,7 +45,7 @@ import { Row, Col , Navbar, NavItem, NavbarBrand, Button } from 'reactstrap';
         
         import {  }  from '../actions/liveActions.js'; 
 
-        import { get_follow_data, get_.iii_sketch_‘3‘_data }  from '../actions/liveActions.js'; 
+        import { get_follow_data, get_.iii_sketch_‘3‘_data, get_.iii_sketch_‘3‘_data }  from '../actions/liveActions.js'; 
         
        
         class liveView extends React.Component {
@@ -75,11 +75,20 @@ import { Row, Col , Navbar, NavItem, NavbarBrand, Button } from 'reactstrap';
             )
         }
         
+        get_.iii sketch ‘3‘_data = () => {
+
+            return (
+                <Col>
+                <!-- ToDo: Refine template loop for get_.iii sketch ‘3‘_data -->
+                </Col>
+            )
+        }
+        
 
             componentDidMount = () => {
-                const { get_follow_data, get_.iii_sketch_‘3‘_data } = this.props
+                const { get_follow_data, get_.iii_sketch_‘3‘_data, get_.iii_sketch_‘3‘_data } = this.props
                
-                ,
+                ,,
             }
     
         render() {
@@ -134,6 +143,7 @@ import { Row, Col , Navbar, NavItem, NavbarBrand, Button } from 'reactstrap';
 
                         {render_get_follow_data()}
 {render_get_.iii_sketch_‘3‘_data()}
+{render_get_.iii sketch ‘3‘_data()}
    
    
                     </Col> 
@@ -149,7 +159,7 @@ import { Row, Col , Navbar, NavItem, NavbarBrand, Button } from 'reactstrap';
         }
     
         function mapDispatchToProps(dispatch) {
-            return bindActionCreators({  get_follow_data, get_.iii_sketch_‘3‘_data }, dispatch);
+            return bindActionCreators({  get_follow_data, get_.iii_sketch_‘3‘_data, get_.iii_sketch_‘3‘_data }, dispatch);
         }
     
    

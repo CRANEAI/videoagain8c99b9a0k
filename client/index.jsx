@@ -15,9 +15,10 @@
             //Parent Components
         //----------------------------------------------------------------------------------------------------------
         
-        import notifications from './components/notifications.jsx'
-import .iii_sketch_‘3‘ from './components/.iii sketch ‘3‘.jsx'
+        import followers from './components/followers.jsx'
+import sign_up from './components/sign up.jsx'
 import follow from './components/follow.jsx'
+import camera_capture from './components/camera capture.jsx'
        
         //----------------------------------------------------------------------------------------------------------
         //Reducer
@@ -38,10 +39,11 @@ import follow from './components/follow.jsx'
         
                 <Router basename="/" history={ history } >
                     <Switch>
-                        <Route path "/" component={notifications}
-                        <Route path="/notifications" component={notifications} /> 
-,<Route path="/.iii_sketch_‘3‘" component={.iii_sketch_‘3‘} /> 
+                        <Route path "/" component={followers}
+                        <Route path="/followers" component={followers} /> 
+,<Route path="/sign_up" component={sign_up} /> 
 ,<Route path="/follow" component={follow} /> 
+,<Route path="/camera_capture" component={camera_capture} /> 
 
                     </Switch>
                 </Router>

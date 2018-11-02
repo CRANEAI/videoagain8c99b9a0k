@@ -171,6 +171,36 @@
                         color: rgb(226, 217, 190)
                     }
                     
+                    status bar-white-black {
+                        background: rgb(251, 251, 251),
+                        color: rgb(20, 20, 20)
+                    }
+                    
+                    status bar-block-block {
+                        background: rgb(163, 162, 163),
+                        color: rgb(15, 14, 15)
+                    }
+                    
+                    image-light turquoise-light sky blue {
+                        background: rgb(111, 233, 209),
+                        color: rgb(219, 248, 244)
+                    }
+                    
+                    label-block-brown {
+                        background: rgb(47, 46, 42),
+                        color: rgb(167, 133, 56)
+                    }
+                    
+                    label-white-black {
+                        background: rgb(251, 251, 251),
+                        color: rgb(26, 26, 26)
+                    }
+                    
+                    button-white-black {
+                        background: rgb(251, 251, 251),
+                        color: rgb(26, 26, 26)
+                    }
+                    
                     status bar-light turquoise-block {
                         background: rgb(108, 232, 207),
                         color: rgb(14, 33, 30)

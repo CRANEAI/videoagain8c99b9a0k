@@ -40,36 +40,28 @@ view has actions which trigger on events, view should should error messages and 
 import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { Row, Col , Button, Input, InputGroup, InputGroupText } from 'reactstrap';
+import { Row, Col , Button } from 'reactstrap';
         
         
         import {  }  from '../actions/.iii_sketch_‘3‘Actions.js'; 
 
-        import { get_sign_up_data, get_.iii_sketch_‘3‘_data, get_follow_data }  from '../actions/.iii sketch ‘3‘Actions.js'; 
+        import { get_follow_data, get_.iii_sketch_‘3‘_data }  from '../actions/.iii sketch ‘3‘Actions.js'; 
         
        
         class .iiisketch‘3‘View extends React.Component {
 
             state = {
                 
-                name : '', 
-email : '', 
-password : '', 
-
+                
             }
     
+                
             
-        handleChange(e) {
-            this.setState({
-                [e.target.name]: e.target.value
-            })
-        }    
-            
-        get_sign up_data = () => {
+        get_follow_data = () => {
 
             return (
                 <Col>
-                <!-- ToDo: Refine template loop for get_sign up_data -->
+                <!-- ToDo: Refine template loop for get_follow_data -->
                 </Col>
             )
         }
@@ -83,20 +75,11 @@ password : '',
             )
         }
         
-        get_follow_data = () => {
-
-            return (
-                <Col>
-                <!-- ToDo: Refine template loop for get_follow_data -->
-                </Col>
-            )
-        }
-        
 
             componentDidMount = () => {
-                const { get_sign_up_data, get_.iii_sketch_‘3‘_data, get_follow_data } = this.props
+                const { get_follow_data, get_.iii_sketch_‘3‘_data } = this.props
                
-                ,,
+                ,
             }
     
         render() {
@@ -111,53 +94,55 @@ password : '',
                     <Col md={12}>
 
                         			<Col md={12}>
-				{/* <!-- TODO: Create unit test for sign_up button-white-standard-medium action --> */}
+				<p className="label-block-white-small"> steve barnett </p>
+			</Col>
+
+			<Col md={12}>
+				<p className="label-white-standard"> id: 64983274 </p>
+			</Col>
+
+			<Col md={12}>
+				<p className="label-white-standard"> fans </p>
+			</Col>
+
+			<Col md={12}>
+				<p className="label-white-standard"> following </p>
+			</Col>
+
+			<Col md={12}>
+				<p className="label-light-pink-lavender"> friends </p>
+			</Col>
+
+			<Col md={12}>
+				<p className="label-block-white-paragraph"> 218 3k1 1k2 </p>
+			</Col>
+
+			<Col md={12}>
+				<p className="label-black-white"> 1k2 </p>
+			</Col>
+
+			<Col md={12}>
+				<p className="label-white-standard"> 3k1 </p>
+			</Col>
+
+			<Col md={12} className="text-center">				{/* <!-- TODO: Change placeholder image with higher res --> */ }
+				<img className="img-fluid" alt="Responsive image" src='http://path.to/replace/image' /> 
+
+			</Col>			<Col md={12}>
+				<p className="label-white-standard"> logout </p>
+			</Col>
+
+			<Col md={12}>
+				{/* <!-- TODO: Create unit test for edit_profile button-light-sky-blue-light-turquoise action --> */}
 				<Button 
-                        className="btn btn-lg btn-block button-white-standard-medium" 
-                        onClick={() => this.sign_up()}>sign up</Button> 
+                        className="btn btn-lg btn-block button-light-sky-blue-light-turquoise" 
+                        onClick={() => this.edit_profile()}>edit profile</Button> 
 
 			</Col>
 
-			<Col md={12}>
-				<InputGroup>					<Input 
-                                        className="form-group input-gray-white" 
-                                        value={this.state.name}
-                                        onChange={this.handleChange}
-                                        name="name"
-                                        placeholder="name" />				</InputGroup>			</Col>
 
-			<Col md={12}>
-				<p className="label-white-standard-small"> ryan hickman </p>
-			</Col>
-
-			<Col md={12}>
-				<InputGroup>					<Input 
-                                        className="form-group input-gray-white" 
-                                        value={this.state.email}
-                                        onChange={this.handleChange}
-                                        name="email"
-                                        placeholder="email" />				</InputGroup>			</Col>
-
-			<Col md={12}>
-				<p className="label-white-standard-small"> ryan@ryan‘com </p>
-			</Col>
-
-			<Col md={12}>
-				<InputGroup>					<Input 
-                                        className="form-group input-white-gray" 
-                                        value={this.state.password}
-                                        onChange={this.handleChange}
-                                        name="password"
-                                        placeholder="password" />				</InputGroup>			</Col>
-
-			<Col md={12}>
-				<p className="label-light-turquoise-light-sky-blue"> ism—in </p>
-			</Col>
-
-
-                        {render_get_sign up_data()}
+                        {render_get_follow_data()}
 {render_get_.iii_sketch_‘3‘_data()}
-{render_get_follow_data()}
    
    
                     </Col> 
@@ -173,7 +158,7 @@ password : '',
         }
     
         function mapDispatchToProps(dispatch) {
-            return bindActionCreators({  get_sign_up_data, get_.iii_sketch_‘3‘_data, get_follow_data }, dispatch);
+            return bindActionCreators({  get_follow_data, get_.iii_sketch_‘3‘_data }, dispatch);
         }
     
    

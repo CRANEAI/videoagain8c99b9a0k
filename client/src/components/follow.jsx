@@ -8,25 +8,20 @@ created by: FusionCode
 //----------------------------------------------------------------------------------------------------------
 
 the follow view has a status bar located at the very-top across the full width of the view
-follow view has Navigation Bar located at the very-top in the center of the view
+follow view has Navigation Bar located at the very-top in the center of the view with text follow
 follow view has an Image located at the very-top center of the view. this is a placeholder and should be updated with higher resolution Image
 follow view has an Image located at the very-top left of the view. this is a placeholder and should be updated with higher resolution Image
 follow view has a Label located at the top center of the view with text {a
 follow view has an Image located at the top center of the view. this is a placeholder and should be updated with higher resolution Image
 follow view has an Image located at the top left of the view. this is a placeholder and should be updated with higher resolution Image
 follow view has a Label located at the main area left of the view with text a _
-view has actions which trigger on events, view should should error messages and display activity indicator when processing
-the composite view has a profile icon located at the bottom right of the view which on click will trigger the profile() action
-the composite view has a home icon located at the bottom left of the view which on click will trigger the home() action
-the edit profile view has a profile icon located at the bottom right of the view which on click will trigger the profile() action
-the edit profile view has a home icon located at the bottom left of the view which on click will trigger the home() action
 
 */
         
 import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { Row, Col   } from 'reactstrap';
+import { Row, Col , Button } from 'reactstrap';
         
         
         import { follow_action, follow_action }  from '../actions/followActions.js'; 
@@ -104,11 +99,23 @@ import { Row, Col   } from 'reactstrap';
                     show_loading_indicator === true ? <i className="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i> : 
                     <Col md={12}>
 
-                        			<Col md={12} className="text-center">				{/* <!-- TODO: Change placeholder image with higher res --> */ }
+                        			<Col md={12}>
+				{/* <!-- TODO: Create unit test for follow button-light-turquoise-block action --> */}
+				<Button 
+                        className="btn btn-lg btn-block button-light-turquoise-block" 
+                        onClick={() => this.follow()}>follow</Button> 
+
+			</Col>
+
+			<Col md={12} className="text-center">				{/* <!-- TODO: Change placeholder image with higher res --> */ }
 				<img className="img-fluid" alt="Responsive image" src='http://path.to/replace/image' /> 
 
 			</Col>			<Col md={12}>
-				<p className="label-block-very-light-yellow-paragraph"> axe/me strea </p>
+				<p className="label-very-light-peach-block"> {a </p>
+			</Col>
+
+			<Col md={12}>
+				<p className="label-very-light-peach-block"> a _ </p>
 			</Col>
 
 

@@ -7,10 +7,10 @@
  * Video Again
 */
 
-/* the edit profile view has a home icon located at the bottom left of the view which on click will trigger the home() action */
-it("the edit profile view has a home icon located at the bottom left of the view which on click will trigger the home() action", () => {
+/* composite view has Label located at the bottom center of the view, text needs identified */
+it("composite view has Label located at the bottom center of the view, text needs identified", () => {
   /* ToDo developer needs to complete unit test 
-               the edit profile view has a home icon located at the bottom left of the view which on click will trigger the home() action
+               composite view has Label located at the bottom center of the view, text needs identified
                uncomment below and update the code to test
                 //instance.action(function(error) {
                 //  if (error) throw error;

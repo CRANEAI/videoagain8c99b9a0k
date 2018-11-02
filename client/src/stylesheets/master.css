@@ -21,11 +21,6 @@
     }
     
     
-                    status bar-white-black {
-                        background: rgb(251, 251, 251),
-                        color: rgb(20, 20, 20)
-                    }
-                    
                     status bar-light turquoise-block {
                         background: rgb(110, 232, 208),
                         color: rgb(8, 34, 28)

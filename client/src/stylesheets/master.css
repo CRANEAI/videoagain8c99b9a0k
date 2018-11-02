@@ -151,31 +151,6 @@
                         color: rgb(230, 248, 248)
                     }
                     
-                    status bar-light turquoise-block {
-                        background: rgb(108, 231, 207),
-                        color: rgb(9, 34, 28)
-                    }
-                    
-                    button-light turquoise-block {
-                        background: rgb(106, 233, 208),
-                        color: rgb(9, 31, 27)
-                    }
-                    
-                    image-very light peach-block {
-                        background: rgb(213, 198, 192),
-                        color: rgb(43, 33, 32)
-                    }
-                    
-                    label-very light peach-block {
-                        background: rgb(213, 198, 192),
-                        color: rgb(43, 33, 32)
-                    }
-                    
-                    label-very light peach-block {
-                        background: rgb(205, 175, 158),
-                        color: rgb(39, 30, 29)
-                    }
-                    
                     status bar-block-black {
                         background: rgb(160, 160, 162),
                         color: rgb(15, 15, 15)

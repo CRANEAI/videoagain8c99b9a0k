@@ -7,10 +7,10 @@
  * Video Again
 */
 
-/* view has actions which trigger on events, view should should error messages and display activity indicator when processing */
-it("view has actions which trigger on events, view should should error messages and display activity indicator when processing", () => {
+/* follow view has a Label located at the main area left of the view with text a _ */
+it("follow view has a Label located at the main area left of the view with text a _", () => {
   /* ToDo developer needs to complete unit test 
-               view has actions which trigger on events, view should should error messages and display activity indicator when processing
+               follow view has a Label located at the main area left of the view with text a _
                uncomment below and update the code to test
                 //instance.action(function(error) {
                 //  if (error) throw error;

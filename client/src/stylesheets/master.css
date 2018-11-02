@@ -21,6 +21,21 @@
     }
     
     
+                    status bar-block-black {
+                        background: rgb(160, 160, 162),
+                        color: rgb(15, 15, 15)
+                    }
+                    
+                    image-block-very light yellow {
+                        background: rgb(34, 38, 38),
+                        color: rgb(226, 217, 190)
+                    }
+                    
+                    label-block-very light yellow {
+                        background: rgb(34, 38, 38),
+                        color: rgb(226, 217, 190)
+                    }
+                    
                     status bar-light turquoise-block {
                         background: rgb(108, 232, 207),
                         color: rgb(14, 33, 30)
@@ -149,21 +164,6 @@
                     button-light turquoise-light sky blue {
                         background: rgb(80, 226, 194),
                         color: rgb(230, 248, 248)
-                    }
-                    
-                    status bar-block-black {
-                        background: rgb(160, 160, 162),
-                        color: rgb(15, 15, 15)
-                    }
-                    
-                    image-block-very light yellow {
-                        background: rgb(34, 38, 38),
-                        color: rgb(226, 217, 190)
-                    }
-                    
-                    label-block-very light yellow {
-                        background: rgb(34, 38, 38),
-                        color: rgb(226, 217, 190)
                     }
                     
     
